@@ -42,5 +42,5 @@ warnings.filterwarnings("ignore")
 #lectura de datos
 df=pd.read_csv('winequality-red.csv',encoding='latin-1')
 st.sidebar.subheader('Ramos Palacios Juan Alexis')
-ejercicio=st.sidebar.ratio('Seleccione la opción',['Introducción','Análisis de Agrupamiento',
+ejercicio=st.sidebar.ratio(['Introducción','Análisis de Agrupamiento',
                                         'Selección del Modelo','Perfilamiento','Conclusiones'])
