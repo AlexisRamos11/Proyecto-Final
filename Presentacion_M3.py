@@ -115,15 +115,15 @@ elif ejercicio=='Selección de Variables':
     st.dataframe((df.isnull().sum()).reset_index().sort_values(0,ascending=False))
 elif ejercicio=='Análisis de Agrupamiento':
     st.header('Análisis de Agrupamiento')
-    st.markdown('Matriz de Correlación')
-    st.dataframe(df[final_columns].corr())
+    #st.markdown('Matriz de Correlación')
+    #st.dataframe(df[final_columns].corr())
 
     #matriz de correlacion
     graf_1=plt.figure(figsize=(10, 8))
     sns.heatmap(df[final_columns].corr(), annot=True, cmap='coolwarm', fmt=".2f", linewidths=0.5)
     plt.title("Matriz de Correlación")
     
-    st.pyplot(graf_1)
+    #st.pyplot(graf_1)
 
     X = df[final_columns]
     #se estandarizan los datos antes de aplicar T-SNE
