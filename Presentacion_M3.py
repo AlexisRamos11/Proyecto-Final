@@ -52,6 +52,8 @@ ejercicio=st.sidebar.radio('Proyecto Final',['Introducción','Selección de Vari
 
 
 if ejercicio=='Introducción':
+
+    st.header('Red and White Variants of the Portuguese Wine')
     st.header('Introducción')
     st.markdown('''
         El Vinho Verde es un vino distintivo producido en la región noroeste de Portugal, conocida como Minho. A pesar de su nombre, que en portugués significa "vino verde", no se refiere a su color, sino a su juventud, ya que generalmente se embotella y consume poco tiempo después de su producción. Aunque es más conocido por sus versiones blancas, el Vinho Verde también cuenta con variantes tintas que poseen un carácter único y menos difundido internacionalmente. Estas variantes tintas suelen elaborarse a partir de variedades autóctonas como Vinhão, Borraçal y Amaral, ofreciendo vinos de color intenso, con acidez marcada, taninos firmes y notas frutales profundas.
