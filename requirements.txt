@@ -5,3 +5,5 @@ matplotlib
 plotly
 scikit-learn
 scipy
+openpyxl
+streamlit
